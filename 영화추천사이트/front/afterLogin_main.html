@@ -8,7 +8,9 @@
     <div id="top">
       <div id="topLocation">
           <input type="button" class="img-button" onclick="location.reload()">
+            <form action = "/users/logout" method="get">
           <button id="login" onclick="location.href='./beforeLogin_main.html'">로그아웃</button>
+            </form>
           <button id="signup" onclick="location.href='./myList.html'">My 보관함</button>
         <div>
           <button id="movieRank" onclick="location.href='./afterLogin_ranking.html'">영화랭킹</button>
@@ -101,13 +103,17 @@ img {
   left: 39%;
 }
 #login {
-  margin-top: 100px;
+  
   float: right;
-  margin-right: 100px;
+  
+
+  
 }
 #signup{
-  margin-top: 100px;
+  
   float: right;
+
+ 
 }
 button {
   margin-right: 10px;
